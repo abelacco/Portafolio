@@ -1,0 +1,28 @@
+.Home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Home h1 {
+    color: aliceblue;
+    width: 900px;
+    text-align: center;
+}
+
+.Home p {
+    color: aliceblue;
+    text-align: center;
+    width: 700px;
+    font-size: 20px;
+}
+
+.Name {
+    color: #0d6efd
+}
+
+.Title {
+    font-size: 25px;
+    color: aliceblue;
+}
