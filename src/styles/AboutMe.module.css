@@ -7,6 +7,9 @@
     align-items: flex-start;
     gap: 10px;
 }
+.AboutMe h1 {
+  color: aliceblue;
+}
 
 
 .AboutMe img {

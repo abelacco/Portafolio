@@ -1,0 +1,22 @@
+
+.Skills {
+    padding-left: 10px;
+}
+
+.Tech {
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    
+}
+
+.imagenes {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.Tech img {
+    width: 120px;
+    height: 100px;
+}
