@@ -13,10 +13,90 @@
 .imagenes {
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 25px;
+    width: 200px;
+    height: 400px;
+    flex-wrap: wrap;
 }
 
-.Tech img {
-    width: 120px;
-    height: 100px;
+.Soft {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    width: 650px;
+    height: 400px;
+    flex-wrap: wrap;
 }
+
+
+.allSkills{
+    display: flex;
+    flex-direction: row;
+    gap: 5px
+}
+
+.rec {
+    width: 60px;
+    height: 40px;
+}
+
+.cir {
+    width: 65px;
+    height: 65px;
+}
+
+.Soft {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    height: 460px;
+    flex-wrap: wrap;
+}
+
+/* From uiverse.io by @Navarog21 */
+button {
+    width: 8.5em;
+    position: relative;
+    height: 4em;
+    border: 3px ridge #149CEA;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    transition: 1s;
+    border-radius: 0.3em;
+    font-size: 15px;
+    
+  }
+  
+  button::after {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 3%;
+    width: 95%;
+    height: 40%;
+    background-color: #212121;
+    transition: 0.5s;
+    transform-origin: center;
+  }
+  
+  button::before {
+    content: "";
+    transform-origin: center;
+    position: absolute;
+    top: 80%;
+    left: 3%;
+    width: 95%;
+    height: 40%;
+    background-color: #212121;
+    transition: 0.5s;
+  }
+  
+  button:hover::before, button:hover::after {
+    transform: scale(0)
+  }
+  
+  button:hover {
+    box-shadow: inset 0px 0px 25px #1479EA;
+  }
