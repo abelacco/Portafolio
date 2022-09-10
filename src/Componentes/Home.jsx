@@ -10,8 +10,7 @@ export default function Home() {
      <span className={style.Name}> Abel Acuna</span>
      <br/>
      <span className={style.Title}>Full Stack Developer</span>
-     </h1>
-    
+     </h1> 
      <p>I build scalable end-to-end web solutions. I am passionate about learning new technologies and solving problems to help teams.</p>
     </div>
     

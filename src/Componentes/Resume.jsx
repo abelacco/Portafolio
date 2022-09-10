@@ -10,28 +10,34 @@ import html from "../Icons/html-5.png"
 import postgress from "../Icons/postgresql.png"
 import postman from "../Icons/postman.png"
 import redux from "../Icons/redux.png"
-import bootstrap from "../Icons/bootstrap.png"
+import slack from "../Icons/slack.png"
+import trello from "../Icons/trello.png"
+import visual from "../Icons/visual.png"
+import drive from "../Icons/drive.png"
+import git from "../Icons/git.png"
+import gitHub from "../Icons/gitHub.png"
+
+
 
 
 export default function EducationSkills() {
   return (
     <div className={style.Skills}>
-      <div className="Technical">
         <div className={style.allSkills}>
           <div className={style.Tech}>
             <h2>Technical Skills</h2>
             <div className={style.imagenes}>
               <img className={style.cir} src={mongo} alt="cargando"/>
               <img className={style.cir} src={express} alt="cargando"/>
-              <img className={style.rec} src={react} alt="cargando"/>
+              <img className={style.cir} src={react} alt="cargando"/>
               <img className={style.cir}  src={node} alt="cargando"/>
               <img className={style.cir}  src={js} alt="cargando"/>
               <img className={style.cir}  src={css} alt="cargando"/>
               <img className={style.cir}  src={html} alt="cargando"/>
               <img className={style.cir}  src={postgress} alt="cargando"/>
-              <img className={style.cir}  src={postman} alt="cargando"/>
               <img className={style.cir}  src={redux} alt="cargando"/>
-              <img className={style.cir}  src={bootstrap} alt="cargando"/> 
+              <img className={style.cir}  src={git} alt="cargando"/> 
+              
             </div>       
           </div>
           <div className={style.Tech}>
@@ -54,23 +60,16 @@ export default function EducationSkills() {
           <div className={style.Tech}>
             <h2>Tool Skills</h2>
             <div className={style.imagenes}>
-              <img className={style.cir} src={mongo} alt="cargando"/>
-              <img className={style.cir} src={express} alt="cargando"/>
-              <img className={style.rec} src={react} alt="cargando"/>
-              <img className={style.cir}  src={node} alt="cargando"/>
-              <img className={style.cir}  src={js} alt="cargando"/>
-              <img className={style.cir}  src={css} alt="cargando"/>
-              <img className={style.cir}  src={html} alt="cargando"/>
-              <img className={style.cir}  src={postgress} alt="cargando"/>
-              <img className={style.cir}  src={postman} alt="cargando"/>
-              <img className={style.cir}  src={redux} alt="cargando"/>
-              <img className={style.cir}  src={bootstrap} alt="cargando"/> 
+              <img className={style.cir} src={slack} alt="cargando"/>
+              <img className={style.cir} src={trello} alt="cargando"/>
+              <img className={style.cir}  src={gitHub} alt="cargando"/>
+              <img className={style.cir}  src={drive} alt="cargando"/>
+              <img className={style.rec} src={visual} alt="cargando"/>
+              <img className={style.rec} src={postman} alt="cargando"/>
+
             </div>       
           </div>
         </div>
-      </div>
-      
-
     </div>
   )
 }

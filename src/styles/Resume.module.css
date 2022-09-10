@@ -1,6 +1,9 @@
 
 .Skills {
-    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 230px;
 }
 
 .Tech {
@@ -32,7 +35,7 @@
 .allSkills{
     display: flex;
     flex-direction: row;
-    gap: 5px
+    gap: 20px
 }
 
 .rec {
