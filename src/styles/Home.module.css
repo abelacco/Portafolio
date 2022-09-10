@@ -3,19 +3,21 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-left: 80px;
 }
 
 .Home h1 {
     color: aliceblue;
     width: 900px;
     text-align: center;
+    font-size: 70px;
 }
 
 .Home p {
     color: aliceblue;
     text-align: center;
     width: 700px;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .Name {

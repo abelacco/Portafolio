@@ -25,7 +25,7 @@ export default function EducationSkills() {
     <div className={style.Skills}>
         <div className={style.allSkills}>
           <div className={style.Tech}>
-            <h2>Technical Skills</h2>
+            <h2 className={style.titleT}>Technical Skills</h2>
             <div className={style.imagenes}>
               <img className={style.cir} src={mongo} alt="cargando"/>
               <img className={style.cir} src={express} alt="cargando"/>
@@ -41,8 +41,8 @@ export default function EducationSkills() {
             </div>       
           </div>
           <div className={style.Tech}>
-            <h2>Soft Skills</h2>
-            <div className={style.Soft}>
+            <h2  className={style.titleS}>Soft Skills</h2>
+            <div className={style.imagenes}>
               <button> Communication</button>
               <button> Flexibility</button>
               <button>Professionalism</button>
@@ -58,15 +58,14 @@ export default function EducationSkills() {
             </div>       
           </div>
           <div className={style.Tech}>
-            <h2>Tool Skills</h2>
-            <div className={style.imagenes}>
+            <h2  className={style.titleTo}>Tool Skills</h2>
+            <div className={style.imagenesTool}>
               <img className={style.cir} src={slack} alt="cargando"/>
               <img className={style.cir} src={trello} alt="cargando"/>
               <img className={style.cir}  src={gitHub} alt="cargando"/>
               <img className={style.cir}  src={drive} alt="cargando"/>
-              <img className={style.rec} src={visual} alt="cargando"/>
-              <img className={style.rec} src={postman} alt="cargando"/>
-
+              <img className={style.cir} src={visual} alt="cargando"/>
+              <img className={style.cir} src={postman} alt="cargando"/>
             </div>       
           </div>
         </div>
