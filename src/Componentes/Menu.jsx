@@ -14,7 +14,7 @@ export default function Menu() {
               <Link className={style.Link} to="/AboutMe"><h3>About Me</h3></Link>
               <Link className={style.Link} to="/Skills"><h3>Skills</h3></Link>
               <Link className={style.Link} to="/Education"><h3>Education</h3></Link>
-              <Link className={style.Link} to="/Experience"><h3>Experience</h3></Link>
+              <Link className={style.Link} to="/Experience"><h3>IT Experience</h3></Link>
               <Link className={style.Link} to="/Projects"><h3>Projects</h3></Link>
               <Link className={style.Link} to="/ContactMe"><h3>Contact Me</h3></Link>
           </ol>

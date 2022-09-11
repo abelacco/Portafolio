@@ -14,9 +14,9 @@
 
 .AboutMe img {
     display: flex;
-    margin-top: 123px;
+    margin-top: 80px;
     width: 30%;
-    height: 360px;
+    height: 435px;
 }
 .Name {
     color: #0d6efd
@@ -30,7 +30,7 @@
 .Text {
     display: flex;
     flex-direction: column;
-    padding-top: 90px;
+    padding-top: 70px;
 }
 
 .option {

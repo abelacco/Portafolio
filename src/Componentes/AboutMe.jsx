@@ -1,10 +1,11 @@
 import React from 'react'
 import style from "../styles/AboutMe.module.css"
+import cv from "../Cv.abel.acuna.pdf"
 
 export default function AboutMe() {
   return (
     <div className={style.AboutMe}>
-        <img src="https://res.cloudinary.com/dbq85fwfz/image/upload/v1662685109/samples/Abel%20PIC/WhatsApp_Image_2022-09-07_at_09.16.24_uwuenk.jpg" alt="loading"/>
+        <img src="https://res.cloudinary.com/dbq85fwfz/image/upload/v1662937391/samples/Abel%20PIC/2019_08_23_HubUDEP_-_3ra_Generaci%C3%B3n_095_dnzk25.jpg" alt="loading"/>
         <div className={style.Text}>
           <h1>I am
           <span className={style.Name}> Abel Acuna</span>
@@ -22,6 +23,9 @@ export default function AboutMe() {
                   <p>Available   : Available Worldwide(Remotely)</p>
               </ol>
           </div>
+          <form method="get" action={cv}>
+   <button type="submit">Download!</button>
+</form>
         </div>
     </div>
   )

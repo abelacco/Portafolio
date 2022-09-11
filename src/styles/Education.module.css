@@ -2,13 +2,13 @@
     display: flex;
     flex-direction: row;
     gap: 15px;
-    padding-left: 90px;
-    padding-top: 70px;
+    padding-left: 180px;
+    padding-top: 170px;
 
 }
 .Container {
     width: 240px;
-    height: 465px;
+    height: 240px;
     color: aliceblue;
     border: 1px solid #2e344e;
     display: flex;
@@ -25,18 +25,21 @@
 
 .Company {
     margin-top: 8px;
-    width: 130px;
+    width: 190px;
+    height: 25px;
+    background-color: #0d6efd;
+    align-self: center;
+    padding-left: 60px;
+    margin-bottom: 10px;
+
+}
+
+.CompanyU {
+    margin-top: 8px;
+    width: 190px;
     height: 25px;
     background-color: #0d6efd;
     align-self: center;
     padding-left: 28px;
-}
-
-.CompanyD {
-    margin-top: 8px;
-    width: 130px;
-    height: 25px;
-    background-color: #0d6efd;
-    align-self: center;
-    padding-left: 40px;
+    margin-bottom: 10px;
 }

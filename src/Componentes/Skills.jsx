@@ -1,5 +1,5 @@
 import React from 'react'
-import style from "../styles/Resume.module.css"
+import style from "../styles/Skills.module.css"
 import js from "../Icons/js.png"
 import node from "../Icons/nodejs.png"
 import mongo from "../Icons/mongodb_plain_wordmark_logo_icon_146423.png"

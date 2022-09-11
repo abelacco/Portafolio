@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-left: 50px;
+    padding-left: 10px;
     padding-bottom: 30px;
 }
 
@@ -56,7 +56,7 @@
 .allSkills{
     display: flex;
     flex-direction: row;
-    gap: 80px
+    gap: 40px
 }
 
 
