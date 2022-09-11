@@ -6,8 +6,9 @@ import Menu from './Componentes/Menu';
 import AboutMe from "./Componentes/AboutMe";
 import Projects from "./Componentes/Projects";
 import ContactMe from "./Componentes/ContactMe";
-import Resume from "./Componentes/Resume";
-import style from "./App"
+import Skills from "./Componentes/Skills";
+import Education from './Componentes/Education';
+import Experience from './Componentes/Experience';
 
 function App() {
   return (
@@ -17,8 +18,10 @@ function App() {
         <Switch >
           <Route exact path="/" component={Home} />
           <Route exact path="/AboutMe" component={AboutMe} />
-          <Route exact path="/Resume" component={Resume} />
+          <Route exact path="/Skills" component={Skills} />
           <Route exact path="/Projects" component={Projects} />
+          <Route exact path="/Education" component={Education} />
+          <Route exact path="/Experience" component={Experience} />
           <Route exact path="/ContactMe" component={ContactMe} />
         </Switch>
       </BrowserRouter>
