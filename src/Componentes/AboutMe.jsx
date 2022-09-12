@@ -1,10 +1,8 @@
 import React from 'react'
 import style from "../styles/AboutMe.module.css"
-import cv from "../Cv.abel.acuna.pdf"
+import cv from "../AbelAcunaCV.pdf"
 
-const handleClick = () => {
-  window.open(cv)
-}
+
 
 export default function AboutMe() {
   return (
