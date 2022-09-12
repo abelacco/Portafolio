@@ -2,6 +2,10 @@ import React from 'react'
 import style from "../styles/AboutMe.module.css"
 import cv from "../Cv.abel.acuna.pdf"
 
+const handleClick = () => {
+  window.open(cv)
+}
+
 export default function AboutMe() {
   return (
     <div className={style.AboutMe}>
@@ -23,9 +27,11 @@ export default function AboutMe() {
                   <p>Available   : Available Worldwide(Remotely)</p>
               </ol>
           </div>
-          <form method="get" action={cv}>
-   <button type="submit">Download!</button>
-</form>
+          <a className={style.Download} href={cv}
+            download="AbelAcunaCV">
+            Download CV
+          </a>
+ 
         </div>
     </div>
   )

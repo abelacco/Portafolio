@@ -1,0 +1,79 @@
+.Principal{
+    display: flex;
+    flex-direction: row;
+    margin: 60px 0px 0px 70px;
+    color:#0d6efd;
+    gap:20px
+
+}
+
+.info{
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 400px;
+
+}
+
+
+
+.DivInput2 {
+    border: 1px solid #0d6efd;
+    background-color: transparent;
+    color: aliceblue;
+}
+
+.country {
+    width: 30px;
+    height: 30px;
+}
+
+
+
+.DivInput2::placeholder {
+    color: aliceblue;
+    padding-left: 2px;
+    
+}
+
+.Form {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px;
+    align-items: center;
+}
+
+.Input {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px;
+    width: 300px;
+}
+
+.Detail {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+}
+
+.Cel {
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    align-items: center;
+}
+.Cel span {
+    padding-left: 1px;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.A{
+    text-decoration: none;
+}
