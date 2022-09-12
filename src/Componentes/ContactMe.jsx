@@ -11,7 +11,7 @@ export default function ContactMe() {
     <div className={style.Principal}>
       <div>
           <h1>Get In Touch</h1>
-          <form  className={style.Form} target="_blank" action="https://formsubmit.co/abel3121@gmail.com" method="POST">
+          <form  className={style.Form} target="_blank" action="https://formsubmit.co/f5f9e3462abb7925c00169f06e003a24 " method="POST">
             <div className={style.Input}>
                   <input className={style.DivInput2}   type="text" name="name"  placeholder="Full Name" required/>
                   <input className={style.DivInput2} type="email" name="email"  placeholder="Email Address" required/>
