@@ -1,12 +1,16 @@
 import React from 'react'
 import style from "../styles/AboutMe.module.css"
 import cv from "../AbelAcunaCV.pdf"
+import Menu from "./Menu"
 
 
 
 export default function AboutMe() {
   return (
+    <div>
+    <Menu/>
     <div className={style.AboutMe}>
+       
         <img src="https://res.cloudinary.com/dbq85fwfz/image/upload/v1662937391/samples/Abel%20PIC/2019_08_23_HubUDEP_-_3ra_Generaci%C3%B3n_095_dnzk25.jpg" alt="loading"/>
         <div className={style.Text}>
           <h1>I am
@@ -31,6 +35,7 @@ export default function AboutMe() {
           </a>
  
         </div>
+    </div>
     </div>
   )
 }

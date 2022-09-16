@@ -2,8 +2,9 @@
     display: flex;
     flex-direction: row;
     gap: 15px;
-    padding-left: 90px;
-    padding-top: 70px;
+    padding-top: 50px;
+    justify-content: center;
+    padding-bottom: 50px;
 
 }
 .Container {
@@ -40,3 +41,10 @@
     align-self: center;
     padding-left: 40px;
 }
+
+@media screen and (max-width: 711px) {
+    .Principal{
+     flex-direction: column;
+     align-items: center;
+    }
+   }
