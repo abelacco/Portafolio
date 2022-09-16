@@ -16,59 +16,66 @@ import visual from "../Icons/visual.png"
 import drive from "../Icons/drive.png"
 import git from "../Icons/git.png"
 import gitHub from "../Icons/gitHub.png"
+import Menu from "./Menu"
+import Education from "./Education"
 
 
 
 
 export default function EducationSkills() {
   return (
-    <div className={style.Skills}>
-        <div className={style.allSkills}>
-          <div className={style.Tech}>
-            <h2 className={style.titleT}>Technical Skills</h2>
-            <div className={style.imagenes}>
-              <img className={style.cir} src={mongo} alt="cargando"/>
-              <img className={style.cir} src={express} alt="cargando"/>
-              <img className={style.cir} src={react} alt="cargando"/>
-              <img className={style.cir}  src={node} alt="cargando"/>
-              <img className={style.cir}  src={js} alt="cargando"/>
-              <img className={style.cir}  src={css} alt="cargando"/>
-              <img className={style.cir}  src={html} alt="cargando"/>
-              <img className={style.cir}  src={postgress} alt="cargando"/>
-              <img className={style.cir}  src={redux} alt="cargando"/>
-              <img className={style.cir}  src={git} alt="cargando"/> 
-              
-            </div>       
-          </div>
-          <div className={style.Tech}>
-            <h2  className={style.titleS}>Soft Skills</h2>
-            <div className={style.imagenes}>
-              <button> Communication</button>
-              <button> Flexibility</button>
-              <button>Professionalism</button>
-              <button>Responsibility</button>
-              <button>Teamwork </button>
-              <button>Work ethic</button>
-              <button>Cooperation</button>
-              <button>Time management</button>
-              <button>Creativity</button>
-              <button>Self-learning</button>
-              <button>Problem solving</button>
-              <button>Open-Mindedness</button>     
-            </div>       
-          </div>
-          <div className={style.Tech}>
-            <h2  className={style.titleTo}>Tool Skills</h2>
-            <div className={style.imagenesTool}>
-              <img className={style.cir} src={slack} alt="cargando"/>
-              <img className={style.cir} src={trello} alt="cargando"/>
-              <img className={style.cir}  src={gitHub} alt="cargando"/>
-              <img className={style.cir}  src={drive} alt="cargando"/>
-              <img className={style.cir} src={visual} alt="cargando"/>
-              <img className={style.cir} src={postman} alt="cargando"/>
-            </div>       
-          </div>
-        </div>
-    </div>
+    <div className={style.main}>
+       <Menu />
+       <h2>Skills</h2>
+      <div className={style.Skills}>
+          <div className={style.allSkills}>
+            <div className={style.Tech}>
+              <h2 className={style.titleT}>Technical Skills</h2>
+              <div className={style.imagenes}>
+                <img className={style.cir} src={mongo} alt="cargando"/>
+                <img className={style.cir} src={express} alt="cargando"/>
+                <img className={style.cir} src={react} alt="cargando"/>
+                <img className={style.cir}  src={node} alt="cargando"/>
+                <img className={style.cir}  src={js} alt="cargando"/>
+                <img className={style.cir}  src={css} alt="cargando"/>
+                <img className={style.cir}  src={html} alt="cargando"/>
+                <img className={style.cir}  src={postgress} alt="cargando"/>
+                <img className={style.cir}  src={redux} alt="cargando"/>
+                <img className={style.cir}  src={git} alt="cargando"/> 
+                
+              </div>       
+            </div>
+            <div className={style.Tech}>
+              <h2  className={style.titleS}>Soft Skills</h2>
+              <div className={style.imagenes}>
+                <button> Communication</button>
+                <button> Flexibility</button>
+                <button>Professionalism</button>
+                <button>Responsibility</button>
+                <button>Teamwork </button>
+                <button>Work ethic</button>
+                <button>Cooperation</button>
+                <button>Time management</button>
+                <button>Creativity</button>
+                <button>Self-learning</button>
+                <button>Problem solving</button>
+                <button>Open-Mindedness</button>     
+              </div>       
+            </div>
+            <div className={style.Tech}>
+              <h2  className={style.titleTo}>Tool Skills</h2>
+              <div className={style.imagenesTool}>
+                <img className={style.cir} src={slack} alt="cargando"/>
+                <img className={style.cir} src={trello} alt="cargando"/>
+                <img className={style.cir}  src={gitHub} alt="cargando"/>
+                <img className={style.cir}  src={drive} alt="cargando"/>
+                <img className={style.cir} src={visual} alt="cargando"/>
+                <img className={style.cir} src={postman} alt="cargando"/>
+              </div>       
+            </div>
+          </div>          
+      </div>
+      <Education/>
+  </div>
   )
 }

@@ -1,9 +1,13 @@
 import React from 'react'
 import style from "../styles/Experience.module.css"
+import Menu from "./Menu"
 
 function Experience() {
   return (
+  <div>
+    <Menu/>
     <div className={style.Principal}>
+        
         <div className={style.Container}>
             <h6>Full Stack Developer</h6>
             <span>Aug22 - Sep22</span>
@@ -42,6 +46,8 @@ function Experience() {
             <li>Create form new Breeds , filters and search bar</li>
         </div>
     </div>
+  </div>
+
   )
 }
 

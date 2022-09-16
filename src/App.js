@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import { Route, BrowserRouter, Switch} from 'react-router-dom'; 
 import Home from "../src/Componentes/Home"
@@ -14,7 +13,6 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>        
-      <Menu />
         <Switch >
           <Route exact path="/" component={Home} />
           <Route exact path="/AboutMe" component={AboutMe} />

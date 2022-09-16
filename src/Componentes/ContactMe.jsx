@@ -4,12 +4,16 @@ import gmail from "../Icons/gmail.png"
 import whatsapp from "../Icons/whatsapp.png"
 import telegram from "../Icons/telegrama.png"
 import peru from "../Icons/peru.png"
-import { Link } from 'react-router-dom'
+import Menu from "./Menu"
 
 export default function ContactMe() {
   return (
+    <div className={style.main}>
+       <Menu/>
+   
     <div className={style.Principal}>
-      <div>
+     
+      <div className={style.contact}>
           <h1>Get In Touch</h1>
           <form  className={style.Form} target="_blank" action="https://formsubmit.co/f5f9e3462abb7925c00169f06e003a24 " method="POST">
             <div className={style.Input}>
@@ -38,6 +42,7 @@ export default function ContactMe() {
             </div>
         </div>
       </div>
+    </div>
     </div>
   )
 }

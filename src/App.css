@@ -1,9 +1,8 @@
+
 .App {
-    display: flex;
-    flex-direction: row;
-    height: 100vh;
+    height: 100%;
+    width: 100%;
     background-image: url("https://media2.giphy.com/media/l46ChKeGsmsfE3Un6/giphy.gif?cid=ecf05e47cwzidhc1v3afvuoax68rkvk4wl1mc7xi72lwsx3y&rid=giphy.gif&ct=g");
-    overflow: hidden ;
 }
 
 
