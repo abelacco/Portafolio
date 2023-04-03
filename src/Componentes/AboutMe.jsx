@@ -21,7 +21,7 @@ export default function AboutMe() {
           <div className={style.description}>
             <ol className={style.option}>
                   <p>Fullname    : Abel Acuna Coronado</p>
-                  <p>Age         : 31 years</p>
+                  <p>Age         : 32 years</p>
                   <p>Nationality : Peruvian</p>
                   <p>Languages   : Spanish,English</p>
                   <p>Email       : abel3121@gmail.com</p>

@@ -154,6 +154,7 @@
   .option {
     flex-direction: row;
     gap:30px;
+    padding: inherit;
   }
   
 }

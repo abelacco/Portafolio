@@ -9,12 +9,13 @@
 }
 .Container {
     width: 240px;
-    height: 465px;
+    /* height: 465px; */
     color: aliceblue;
     border: 1px solid #2e344e;
     display: flex;
     flex-direction: column;
     padding-left: 5px;
+ 
 }
 
 .Line {
@@ -30,7 +31,8 @@
     height: 25px;
     background-color: #0d6efd;
     align-self: center;
-    padding-left: 28px;
+    /* padding-left: 28px; */
+    text-align: center;
 }
 
 .CompanyD {

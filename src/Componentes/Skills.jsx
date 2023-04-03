@@ -3,6 +3,7 @@ import style from "../styles/Skills.module.css"
 import js from "../Icons/js.png"
 import node from "../Icons/nodejs.png"
 import mongo from "../Icons/mongodb_plain_wordmark_logo_icon_146423.png"
+import angularI from "../Icons/angularI.png"
 import express from "../Icons/express.png"
 import react from "../Icons/react.png"
 import css from "../Icons/css-3.png"
@@ -11,6 +12,7 @@ import postgress from "../Icons/postgresql.png"
 import postman from "../Icons/postman.png"
 import redux from "../Icons/redux.png"
 import slack from "../Icons/slack.png"
+import gitlab from "../Icons/gitlab.png"
 import trello from "../Icons/trello.png"
 import visual from "../Icons/visual.png"
 import drive from "../Icons/drive.png"
@@ -32,6 +34,7 @@ export default function EducationSkills() {
             <div className={style.Tech}>
               <h2 className={style.titleT}>Technical Skills</h2>
               <div className={style.imagenes}>
+                <img className={style.cir} src={angularI} alt="cargando"/>
                 <img className={style.cir} src={mongo} alt="cargando"/>
                 <img className={style.cir} src={express} alt="cargando"/>
                 <img className={style.cir} src={react} alt="cargando"/>
@@ -68,6 +71,7 @@ export default function EducationSkills() {
                 <img className={style.cir} src={slack} alt="cargando"/>
                 <img className={style.cir} src={trello} alt="cargando"/>
                 <img className={style.cir}  src={gitHub} alt="cargando"/>
+                <img className={style.cir}  src={gitlab} alt="cargando"/>
                 <img className={style.cir}  src={drive} alt="cargando"/>
                 <img className={style.cir} src={visual} alt="cargando"/>
                 <img className={style.cir} src={postman} alt="cargando"/>

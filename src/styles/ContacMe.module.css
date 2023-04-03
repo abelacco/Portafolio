@@ -88,15 +88,14 @@
 
 @media screen and (max-width: 734px) {
     .Principal{
-     flex-direction: column;
-     align-items: center;
-     flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-top: 20px;
+        margin: inherit;
     }
     .info {
         align-items: center;
     }
 
-    .DivInput2{
-        
-    }
    }

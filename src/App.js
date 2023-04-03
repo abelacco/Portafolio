@@ -1,7 +1,6 @@
 import './App.css';
 import { Route, BrowserRouter, Switch} from 'react-router-dom'; 
 import Home from "../src/Componentes/Home"
-import Menu from './Componentes/Menu';
 import AboutMe from "./Componentes/AboutMe";
 import Projects from "./Componentes/Projects";
 import ContactMe from "./Componentes/ContactMe";
@@ -11,7 +10,9 @@ import Experience from './Componentes/Experience';
 
 function App() {
   return (
-    <div className="App">
+    // <div className="App">
+    <div>
+
       <BrowserRouter>        
         <Switch >
           <Route exact path="/" component={Home} />
