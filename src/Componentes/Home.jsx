@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import style from "../styles/Home.module.css"
 import linkedin from "../Icons/linkedin.png"
 import gitHub from "../Icons/gitHub.png"
@@ -7,6 +7,19 @@ import Menu from "../Componentes/Menu"
 
 export default function Home() {
  
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch('https://integraciones.restaurant.pe/datos/listaInfoLocal');
+        const data = await response.json();
+        console.log('Data:', data);
+      } catch (error) {
+        console.error('Error:', error);
+      }
+    };
+
+    fetchData();
+  }, []);
 
   return (
     <div>
